@@ -1,4 +1,4 @@
-package org.happypanda.persistence;
+package org.happypanda.persistence.message;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

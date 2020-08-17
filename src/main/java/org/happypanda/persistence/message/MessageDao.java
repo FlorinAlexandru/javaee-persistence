@@ -1,4 +1,4 @@
-package org.happypanda.persistence;
+package org.happypanda.persistence.message;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
@@ -9,7 +9,7 @@ import java.util.List;
 @Stateless
 public class MessageDao {
 
-    @PersistenceContext(name = "inmemory")
+    @PersistenceContext(name = "inmemory", unitName = "inmemory")
     private EntityManager em;
 
     public List<Message> findAll() {
@@ -24,4 +24,4 @@ public class MessageDao {
     public String sayHello() {
         return "dodo fat";
     }
-}
+}   

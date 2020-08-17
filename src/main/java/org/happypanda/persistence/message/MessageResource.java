@@ -1,4 +1,4 @@
-package org.happypanda.persistence;
+package org.happypanda.persistence.message;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
