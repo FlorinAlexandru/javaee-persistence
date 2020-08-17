@@ -1,4 +1,4 @@
-package org.happypanda.persistence;
+package org.happypanda.persistence.message;
 
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
