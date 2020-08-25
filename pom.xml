@@ -103,6 +103,9 @@
                             </execution>
                         </executions>
                         <configuration>
+                            <systemPropertyVariables>
+                                <arquillian.launch>wildfly-managed</arquillian.launch>
+                            </systemPropertyVariables>
                             <excludes>
                                 <exclude>**/Test*.java</exclude>
                                 <exclude>**/*Test.java</exclude>
@@ -182,6 +185,9 @@
                             </execution>
                         </executions>
                         <configuration>
+                            <systemPropertyVariables>
+                                <arquillian.launch>wildfly-remote</arquillian.launch>
+                            </systemPropertyVariables>
                             <excludes>
                                 <exclude>**/Test*.java</exclude>
                                 <exclude>**/*Test.java</exclude>
